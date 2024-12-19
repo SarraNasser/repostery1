@@ -7,7 +7,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: "Testing Current Directory"
-        run: pwd
-      - name: "Printing Message"
-        run: echo "Hello, GitHub Actions!"
+      - name: "printing folder content"
+        run: ls
+      
